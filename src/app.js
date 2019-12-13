@@ -13,11 +13,11 @@ import 'normalize.css/normalize.css';
 import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
-
+/*
 const unsubscribe = store.subscribe(() => {
   const state = store.getState();
   console.log(getVisibleExpenses(state.expenses, state.filters));
-})
+})*/
 /*
 store.dispatch(sortByAmount());
 store.dispatch(addExpense({
